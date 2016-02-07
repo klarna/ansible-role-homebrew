@@ -8,5 +8,11 @@
 - name: Update and upgrade homebrew
   homebrew: update_homebrew=yes upgrade_all=yes
 
+- name: See that 'brew list' works
+  command: brew list
+
 - name: Install homebrew cask
-  homebrew_tap: name=caskroom/cask state=latest
+  homebrew_tap: name=caskroom/cask
+
+- name: See that 'brew cask list' works
+  command: brew cask list
