@@ -1,4 +1,4 @@
-# Ansible Role - Homebrew & Homebrew Cask
+# Ansible Role - Homebrew & Homebrew Cask [![Build Status](https://travis-ci.org/klarna/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/klarna/ansible-role-homebrew)
 
 Ansible role that installs Homebrew and Homebrew Cask on OSX. This role is part of Klarna's Superlumic setup.
 
