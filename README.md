@@ -1,26 +1,19 @@
-# superlumic-homebrew
+# Ansible Role - Homebrew & Homebrew Cask
 
-Ansible role to install Homebrew on OSX. This role is part of the Superlumic project that aims to simplify repeat computer setups on OSX, 10.10 and up.
+Ansible role that installs Homebrew and Homebrew Cask on OSX. This role is part of Klarna's Superlumic setup.
 
 ## Requirements
 
-* OSX 10.10 or 10.11
-
-## Role variables
-
-```yaml
-git_user_name: Your Name
-git_user_email: your@email.address
-```
+* OSX 10.10+
 
 # Usage
 
-Check [Superlumic](https://github.com/superlumic/superlumic) for documentation
+Just use this as you would any Ansible role.
 
 # License
 
-MIT
+Apache 2.0
 
 # Author
 
-[Roderik van der Veer](mailto:roderik@superlumic.com) - [@r0derik](https://twitter.com/r0derik)
+Guy Rozen
